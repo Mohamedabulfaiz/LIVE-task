@@ -118,14 +118,6 @@ padding-left: 45%;
          color:  rgb(0, 162, 255);
          font-size: 1.2rem;
         }
-        .grid-section{
-            margin:20pxpx;
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(6,200px);
-            gap: 5px;
-            
-         }
 }
 @media(max-width:1120px){
     .pink-section{
