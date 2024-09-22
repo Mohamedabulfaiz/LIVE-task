@@ -1,4 +1,6 @@
-
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
 
 .pink-section{
     margin: 60px 210px;
@@ -60,6 +62,14 @@ padding-left: 45%;
 .gallery a:hover{
     color: rgb(224, 67, 119);
 }
+.grid-section{
+    margin:60px 210px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,250px);
+    gap: 10px;
+    
+ }
 
 
 @media (max-width:490px){
@@ -108,6 +118,14 @@ padding-left: 45%;
          color:  rgb(0, 162, 255);
          font-size: 1.2rem;
         }
+        .grid-section{
+            margin:20pxpx;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(6,250px);
+            gap: 5px;
+            
+         }
 }
 @media(max-width:1120px){
     .pink-section{
