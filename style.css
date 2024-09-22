@@ -73,6 +73,7 @@ padding-left: 45%;
  .flex{
     margin-bottom: 10px;
     min-height: 250px;
+    border-radius: 40px;
  }
 
 
@@ -134,10 +135,12 @@ padding-left: 45%;
 
         .flex-section{
             margin: 20px;
+
         }
         .flex{
             margin-bottom: 5px;
             width: 49%;
+            border-radius: 50px;
          }
         
 }
@@ -159,8 +162,8 @@ padding-left: 45%;
          color:  rgb(0, 162, 255);
          font-size: 1.2rem;
         }
-        .flex-section{
-            margin: 20px;
+    .flex-section{
+         margin: 20px;
         }
 
 }
