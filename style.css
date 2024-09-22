@@ -122,7 +122,7 @@ padding-left: 45%;
             margin:20pxpx;
             display: grid;
             grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(6,250px);
+            grid-template-rows: repeat(6,200px);
             gap: 5px;
             
          }
