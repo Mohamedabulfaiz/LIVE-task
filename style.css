@@ -62,17 +62,22 @@ padding-left: 45%;
 .gallery a:hover{
     color: rgb(224, 67, 119);
 }
-.grid-section{
+.flex-section{
     margin:60px 210px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,250px);
-    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     
+ }
+ .flex{
+    margin-bottom: 10px;
+    min-height: 250px;
  }
 
 
-@media (max-width:490px){
+
+@media (max-width:480px){
     .pink-section{
         margin: 20px;
         display: flex;
@@ -118,6 +123,17 @@ padding-left: 45%;
          color:  rgb(0, 162, 255);
          font-size: 1.2rem;
         }
+
+        .flex-section{
+            margin: 20px;
+        }
+        .flex{
+            margin-bottom: 5px;
+            height:100px;
+            width: 49%;
+         }
+
+        
 }
 @media(max-width:1120px){
     .pink-section{
@@ -129,13 +145,16 @@ padding-left: 45%;
     .gallery{
         height: 40px;
         margin: 20px;
-        padding-left: 0%;
+        padding-left: 0;
         }
     .gallery a{
          text-decoration: none;
          margin: 10px;
          color:  rgb(0, 162, 255);
          font-size: 1.2rem;
+        }
+        .flex-section{
+            margin: 20px;
         }
 
 }
