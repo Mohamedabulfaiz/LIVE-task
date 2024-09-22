@@ -75,6 +75,9 @@ padding-left: 45%;
     min-height: 250px;
     border-radius: 40px;
  }
+ .flex-section img{
+    border-radius: 10px;
+ }
 
 
 
