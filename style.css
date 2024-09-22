@@ -1,0 +1,132 @@
+
+
+.pink-section{
+    margin: 60px 210px;
+    display: flex;
+    background-color: rgb(224, 67, 119);
+    height: 460px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.pink-section i{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pink-section h2{
+    color: white;
+    text-align: center;
+}
+.blue-section{
+    margin: 60px 210px;
+    min-height: 460px;
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.about-section{
+    min-width: 49%;
+}
+.about-section i{
+    padding-left: 45%;
+    margin-bottom: 20px;
+}
+.about-section h2{
+    padding-left: 45%;
+    color: white;
+}
+.blue-content{
+   min-width: 49%;
+
+}
+.blue-content h3{
+    margin: 30px 35px;
+    color: white;
+}
+.gallery{
+height: 40px;
+margin: 60px 210px;
+padding-left: 45%;
+}
+.gallery a{
+    text-decoration: none;
+    margin: 10px;
+    color:  rgb(0, 162, 255);
+    font-size: 1.2rem;
+}
+.gallery a:hover{
+    color: rgb(224, 67, 119);
+}
+
+
+@media (max-width:490px){
+    .pink-section{
+        margin: 20px;
+        display: flex;
+        background-color: rgb(224, 67, 119);
+        min-height: 460px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .blue-section{
+        margin: 20px;
+        min-height: 460px;
+        background-color: rgb(0, 162, 255);
+        display: flex;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-section{
+        min-width: 50%;
+        padding-top: 30px;
+    }
+    .about-section i{
+        padding-left: 0;
+        margin-bottom: 20px;
+        padding-left: 50px;
+    }
+    .about-section h2{
+        padding-left: 0%;
+        color: white;
+        padding-left: 50px;
+    }
+    .gallery{
+        height: 40px;
+        margin: 20px;
+        padding-left: 0%;
+        }
+    .gallery a{
+        text-decoration: none;
+         margin: 10px;
+         color:  rgb(0, 162, 255);
+         font-size: 1.2rem;
+        }
+}
+@media(max-width:1120px){
+    .pink-section{
+        margin: 20px;
+    }
+    .blue-section {
+        margin: 20px;
+    }
+    .gallery{
+        height: 40px;
+        margin: 20px;
+        padding-left: 0%;
+        }
+    .gallery a{
+         text-decoration: none;
+         margin: 10px;
+         color:  rgb(0, 162, 255);
+         font-size: 1.2rem;
+        }
+
+}
+   
