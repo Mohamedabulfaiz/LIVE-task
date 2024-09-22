@@ -106,11 +106,13 @@ padding-left: 45%;
     .about-section{
         min-width: 50%;
         padding-top: 30px;
+        align-items: center;
     }
     .about-section i{
         padding-left: 0;
         margin-bottom: 20px;
         padding-left: 45px;
+        align-items: center;
  }
 
     .about-section h2{
