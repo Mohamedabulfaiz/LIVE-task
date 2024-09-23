@@ -227,6 +227,11 @@ padding-left: 45%;
             width: 100%;
             margin-left: 40%;
         }
+        .copyright{
+            margin:20px;
+            text-align: center;
+            color: gray;
+        }
 
 }
 
